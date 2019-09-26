@@ -16,6 +16,9 @@
 
 .appStoreBadge {
     height: 50px;
+    display: block;
+    position: absolute;
+    bottom: 50px;
 }
 
 .navbar {
@@ -25,20 +28,22 @@
 .card {
     opacity: 0.95;
     transition: all 0.25s ease;
-    top:0px;
     margin-top: 20px;
     overflow-y: visible;
+    position: relative;
+    padding-bottom: 100px;
 }
 
 .card:hover {
     opacity: 1;
-    top: -10px;
 }
 
 .githubBadge {
     width: 160px;
     height: 30px;
     margin-top: 15px;
+    position: absolute;
+    bottom: 10px;
 }
 
 .brown {
@@ -54,6 +59,17 @@ body {
     font-size: 24px;
 }
 
+.screenshot {
+    height: 300px;
+    width: 153px;
+    margin: 0 auto;
+}
+
+.landscape {
+    width: 250px;
+    height: 127px;
+    margin: 0 auto;
+}
 
 
 .timeline {
