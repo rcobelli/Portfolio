@@ -46,6 +46,12 @@
     bottom: 10px;
 }
 
+.buttonBadge {
+    margin-top: 15px;
+    position: absolute;
+    bottom: 10px;
+}
+
 .brown {
     background-color: #644117;
 }
